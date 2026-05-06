@@ -1,13 +1,63 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
   <title>Notion AI Book</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <style>
-    body { font-family: Arial; background:#f5f7fa; margin:0;}
-    header { background:#1e3a8a; color:white; padding:20px; text-align:center;}
-    .card { background:white; margin:20px; padding:20px; border-radius:10px;}
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f6f9;
+    }
+
+    header {
+      background-color: #1e3a8a;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    header p {
+      margin-top: 5px;
+      font-size: 16px;
+    }
+
+    .container {
+      padding: 30px;
+      text-align: center;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      max-width: 900px;
+      margin: auto;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      font-size: 14px;
+      color: #555;
+    }
   </style>
 </head>
+
 <body>
 
 <header>
@@ -15,49 +65,20 @@
   <p>Infographics + Mind Maps</p>
 </header>
 
-<div class="card">
-  <h2>Artificial Intelligence</h2>
-  <p>Machines that simulate human intelligence.</p>
-  <ul>
-    <li>Types: Narrow, General, Super AI</li>
-    <li>Used in healthcare, finance, education</li>
-  </ul>
+<div class="container">
+  <div class="card">
+    <h2>Complete AI Visual Guide</h2>
+    <p>This project presents Artificial Intelligence concepts using infographics and mind maps.</p>
+
+    <!-- IMPORTANT: Image file must exist in repo -->
+    <img src="ai_visuals.png" alt="AI Visuals">
+
+  </div>
 </div>
 
-<div class="card">
-  <h2>Machine Learning</h2>
-  <p>Systems that learn from data.</p>
-  <ul>
-    <li>Supervised, Unsupervised, Reinforcement</li>
-    <li>Used for predictions</li>
-  </ul>
-</div>
-
-<div class="card">
-  <h2>Deep Learning</h2>
-  <p>Neural network-based learning.</p>
-  <ul>
-    <li>Layers: Input, Hidden, Output</li>
-    <li>Used in image & speech recognition</li>
-  </ul>
-</div>
-
-<div class="card">
-  <h2>NLP</h2>
-  <p>Understanding human language.</p>
-  <ul>
-    <li>Chatbots, Translation</li>
-  </ul>
-</div>
-
-<div class="card">
-  <h2>AI in Real World</h2>
-  <p>Applications across industries.</p>
-  <ul>
-    <li>Recommendation systems</li>
-    <li>Fraud detection</li>
-  </ul>
-</div>
+<footer>
+  Built as part of internship project 🚀
+</footer>
 
 </body>
 </html>
